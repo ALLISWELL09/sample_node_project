@@ -29,7 +29,7 @@ app.get("/about",(req,res)=>{
 
 app.get("*",(req,res)=>{
     res.render("404",{
-        errorcoment:"Oppes Page couldn't Found"
+        errorcoment:"Oppes Page couldn't Found please enter you back button"
     })
 })
 
